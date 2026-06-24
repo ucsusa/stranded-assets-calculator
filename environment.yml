@@ -1,0 +1,36 @@
+name: stranded-assets
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python < 3.14
+  - pip
+  - ipykernel
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - numpy
+  - seaborn
+  - plotly
+  - tqdm
+  - geopandas
+  - pyogrio
+  - cartopy
+  - descartes
+  - lxml
+  - pycountry
+  - yaml
+  - geopy
+  - graphviz
+  - networkx
+  - pytz
+  - pysal
+  - pyarrow
+  - pip:
+    - numpy-financial
+    - us
+    - python-dotenv
+    - census
+    - streamlit
+    - pyproj
